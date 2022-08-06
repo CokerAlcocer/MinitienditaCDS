@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Doritos nachos",
+        "imgUrl": "https://cdn.shopify.com/s/files/1/0297/6812/2412/products/Doritos_nachos_mega_sabritas_650_gr_400x.jpg?v=1586040436",
+        "price": 15,
+        "status": true
+    },{
+        "name": "Sabritas clásicas",
+        "imgUrl": "https://modeloramanow.vtexassets.com/arquivos/ids/155479/83.png?v=637349320100000000",
+        "price": 17,
+        "status": true
+    },{
+        "name": "Cheetos torciditos",
+        "imgUrl": "https://cheetos.com.mx/include/img/productos/big/cheetos-1.png",
+        "price": 13,
+        "status": true
+    },{
+        "name": "Cheetos poffs",
+        "imgUrl": "https://s.cornershopapp.com/product-images/2641673.png?versionId=2XorkLyGvjtlypSqyJy0mjeJJOV8f_jO",
+        "price": 13,
+        "status": true
+    },{
+        "name": "Ruffles",
+        "imgUrl": "https://modeloramanow.vtexassets.com/arquivos/ids/155475/79.png?v=637349320089200000",
+        "price": 17,
+        "status": false
+    },{
+        "name": "Rancheritos",
+        "imgUrl": "https://modeloramanow.vtexassets.com/arquivos/ids/156887/ranchbolzasa_105gr.png?v=637897884403670000",
+        "price": 13,
+        "status": true
+    },{
+        "name": "Fritos clásicos",
+        "imgUrl": "https://antojitos-mx.com/WebRoot/Store9/Shops/8d3f15d7-99c2-46bb-9867-a38fec5a288d/60CA/592C/966A/69E4/7F3D/0A48/35D5/DBE0/fritos-con-limon-sal-57gr.jpeg",
+        "price": 15,
+        "status": true
+    },{
+        "name": "Mini papitas",
+        "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_844171-MLM47417803349_092021-O.webp",
+        "price": 8,
+        "status": true
+    },{
+        "name": "Triki trakes",
+        "imgUrl": "https://cdn.shopify.com/s/files/1/0566/4391/1854/products/0000075002268_240821_2b7d2697-f113-4d32-a758-e72f0368e5f1.jpg?v=1647721268",
+        "price": 12,
+        "status": true
+    },{
+        "name": "Principe",
+        "imgUrl": "https://s.cornershopapp.com/product-images/331164.jpg",
+        "price": 12,
+        "status": true
+    },{
+        "name": "Plativolos",
+        "imgUrl": "https://cf.shopee.com.mx/file/80a10fa87f8be47a074cfa05ff4b46a3_tn",
+        "price": 12,
+        "status": true
+    },{
+        "name": "Sponch",
+        "desc": "(3 pzas.)",
+        "imgUrl": "https://farmaciagloria.mx/7278-large_default/galleta-marinela-sponch-de-150-g.jpg",
+        "price": 10,
+        "status": true
+    },{
+        "name": "Barritas (fresa)",
+        "imgUrl": "https://cdn.shopify.com/s/files/1/0297/6812/2412/products/BARRITAS_FRESA_MARINELA_600x.png?v=1632771046",
+        "price": 12,
+        "status": true
+    },{
+        "name": "Barritas (piña)",
+        "imgUrl": "https://d1zc67o3u1epb0.cloudfront.net/media/catalog/product/cache/23527bda4807566b561286b47d9060f4/6/8/6849.jpg",
+        "price": 12,
+        "status": true
+    },{
+        "name": "Barritas (moras)",
+        "imgUrl": "https://superdtodo.com/assets/uploads/e7f20a33a14acf51a4731851e4d8c1dc.png",
+        "price": 13,
+        "status": true
+    },{
+        "name": "Mini cereales",
+        "imgUrl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750100801963L.jpg",
+        "price": 10,
+        "status": true
+    },{
+        "name": "Rice krispies treats",
+        "imgUrl": "https://m.media-amazon.com/images/I/61+cASZewML._SL1440_.jpg",
+        "price": 7,
+        "status": true
+    },{
+        "name": "Dulci gomas",
+        "desc": "(20 pzas. c/u)",
+        "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_916541-MLM49764376329_042022-O.jpg",
+        "price": 13,
+        "status": true
+    },{
+        "name": "Berries & seeds",
+        "desc": "barra de granola",
+        "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_653054-MLM49282244267_032022-O.jpg",
+        "price": 7,
+        "status": true
+    },{
+        "name": "Sweet & salty",
+        "desc": "barra de granola",
+        "imgUrl": "https://www.costco.com.mx/medias/sys_master/products/h04/h35/80057825099806.webp",
+        "price": 7,
+        "status": true
+    }
+]

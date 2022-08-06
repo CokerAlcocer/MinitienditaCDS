@@ -1,3 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(252, 248, 248)
+}
+
+.gradient {
+    background: rgb(0, 30, 85);
+    background: linear-gradient(90deg, rgba(0, 30, 85, 1) 0%, rgb(14, 99, 255) 100%);
 }
