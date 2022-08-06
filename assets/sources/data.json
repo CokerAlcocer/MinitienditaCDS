@@ -96,12 +96,30 @@
         "desc": "barra de granola",
         "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_653054-MLM49282244267_032022-O.jpg",
         "price": 7,
-        "status": true
+        "status": false
     },{
         "name": "Sweet & salty",
         "desc": "barra de granola",
         "imgUrl": "https://www.costco.com.mx/medias/sys_master/products/h04/h35/80057825099806.webp",
         "price": 7,
+        "status": true
+    },{
+        "name": "Red Cola",
+        "desc": "3L",
+        "imgUrl": "https://d1zc67o3u1epb0.cloudfront.net/media/catalog/product/cache/23527bda4807566b561286b47d9060f4/1/5/15577.jpg",
+        "price": 30,
+        "status": true
+    },{
+        "name": "Jarrito (piña)",
+        "desc": "2L",
+        "imgUrl": "https://cdn.shopify.com/s/files/1/0706/6309/products/Captura_de_pantalla_2019-04-05_a_la_s_11.23.37_2b4ef55d-98fd-422e-b089-f0bee8fe7ede_400x.png?v=1563807490",
+        "price": 22,
+        "status": true
+    },{
+        "name": "Jarrito (tutifruti)",
+        "desc": "2L",
+        "imgUrl": "https://cdn.shopify.com/s/files/1/0706/6309/products/mayoreototal-caja-refresco-jarritos-tuttifrutti-de-2-litros-con-8-piezas-jarritos-refrescos-jarritos-sku_400x.jpg?v=1563808790",
+        "price": 22,
         "status": true
     }
 ]

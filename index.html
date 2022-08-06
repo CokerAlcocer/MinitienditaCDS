@@ -2,65 +2,130 @@
 <html lang="en" ng-app="MinitienditaCDS">
 
 <head>
+    <!-- # AngularJS -->
     <script src="./js/angular.min.js"></script>
     <script src="./js/app/productsController.js"></script>
     <!-- # Sweet Alert -->
-    <script src="./js/sweetalert.min.js"></script>
+    <script src="./js/sweetalert.min_1.js"></script>
+    <script src="./js/SweetAlert.min.js"></script>
     <link rel="stylesheet" href="./assets/css/sweetalert.css">
     <!-- # Bootstarp -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- # CSS -->
     <link rel="stylesheet" href="./assets/css/general.css">
+    <!-- # JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- # Encabezado -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minitiendita | CDS</title>
+    <link rel="shortcut icon" href="./assets/img/mariposa.png" type="image/x-icon">
+    <title>Minitiendita | Pososa</title>
 </head>
 
 <body ng-controller="productController" ng-init="getData()">
 
-        <!-- # Contenido -->
-        <div class="row d-flex align-items-center gradient py-3 px-4 shadow text-white">
-            <div class="col-6">
-                <label class="fs-1 fst-italic">Mini-Tiendita CDS <span class="fs-5 text-white">De la tienda a tu oficina</span></label>
-            </div>
-            <div class="col-6 text-end">
-                <i role="button" class="bi bi-whatsapp fs-2 m"></i>
-                <i role="button" class="bi bi-credit-card-2-back fs-2"></i>
+    <!-- # Contenido -->
+    <div class="row d-flex align-items-center top-nav px-4 py-3 shadow text-white">
+        <div class="col-10">
+            <span class="fs-2 fst-italic"><img src="./assets/img/mariposa.png" height="60" class="me-3 pb-2">Mini-Tiendita Pososa</span>
+        </div>
+        <div class="col-2 text-end">
+            <div class="row">
+                <div class="col-2">
+                    <i role="button" ng-click="fireContact()" class="bi bi-whatsapp fs-2 me-3"></i>
+                </div>
+                <div class="col-2">
+                    <i role="button" ng-click="fireTransfer()" class="bi bi-credit-card-2-back fs-2"></i>
+                </div>
             </div>
         </div>
-        <div class="container mt-4">
-            <p class="fs-2">Listado de productos</p>
-            <hr>
-            <!-- # Tarjetas de producto -->
-            <div class="row">
-                <div class="col-3" ng-repeat="product in products">
-                    <div class="card mb-5 shadow">
-                        <img style="height: 150px; object-fit: contain;" src="{{ product.imgUrl }}" alt=""
-                            class="mt-3 mb-0 card-img-top">
-                        <div class="card-body mt-0">
-                            <span class="fs-4">{{ product.name }}</span><br>
-                            <span class="fs-6 text-muted fst-italic">{{ product.price | currency }}</span>
-                            <div class="row">
-                                <div class="col-6">
-                                    <span class="badge text-dark ps-0 fw-lighter fst-italic" ng-if="product.desc">{{ product.desc }}</small>
+    </div>
+    <div class="container mt-4">
+        <p class="fs-2">Listado de productos</p>
+        <hr>
+        <!-- # Tarjetas de producto -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3" ng-repeat="product in products">
+                <div class="card mb-3 mb-md-5 shadow">
+                    <img style="height: 150px; object-fit: contain;" src="{{ product.imgUrl }}" alt=""
+                        class="mt-3 mb-0 card-img-top">
+                    <div class="card-body mt-0">
+                        <span class="fs-4">{{ product.name }}</span><br>
+                        <span class="fs-6 text-muted fst-italic">{{ product.price | currency }}</span>
+                        <div class="row">
+                            <div class="col-6">
+                                <span class="badge text-dark ps-0 fw-lighter fst-italic" ng-if="product.desc">{{
+                                    product.desc }}</small>
+                            </div>
+                            <div class="text-end col-6">
+                                <span ng-if="product.status" class="badge gradient">En stock</span>
+                                <span ng-if="!product.status" class="badge bg-danger">Agotados</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- # Tarjetas de producto -->
+    </div>
+    <!-- # Contenido -->
+    </div>
+    <!-- # Contenedor principal -->
+
+    <!-- Modal de contactos-->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="card border-0">
+                    <div class="card-header gradient">
+                        <span class="fs-4 text-white">Contactos</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center">
+                            <p class="fs-4">
+                                Teléfonos:
+                            </p>
+                            <p class="d-flex justify-content-evenly">
+                                <span class="text-muted fst-italic bi bi-whatsapp"> 777 535 4835</span>
+                                <span class="text-muted fst-italic bi bi-whatsapp"> 55 3794 8793</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de transferencias-->
+    <div class="modal fade" id="transferModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="card border-0">
+                    <div class="card-header gradient">
+                        <span class="fs-4 text-white">Transferencias</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center">
+                            <img height="100" src="https://www.disfrutaveracruz.mx/wp-content/uploads/2018/09/BANCO-AZTECA-LOGO-02-1024x436.png" alt="">
+                            <div class="row mt-3">
+                                <div class="col-6 text-center">
+                                    <span> CLABE</span><br>
+                                    <span class="text-muted fst-italic">1271 8001 6649 0243 15</span>
                                 </div>
-                                <div class="text-end col-6">
-                                    <span ng-if="product.status" class="badge bg-success">En stock</span>
-                                    <span ng-if="!product.status" class="badge bg-danger">Agotados</span>
+                                <div class="col-6">
+                                    <span> No. de tarjeta</span><br>
+                                    <span class="text-muted fst-italic">4198 2101 6250 3550</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- # Tarjetas de producto -->
         </div>
-        <!-- # Contenido -->
     </div>
-    <!-- # Contenedor principal -->
 
 </body>
 

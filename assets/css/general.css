@@ -4,7 +4,13 @@ body {
     background-color: rgb(252, 248, 248)
 }
 
+.top-nav {
+    background: rgb(70, 0, 120);
+    background: linear-gradient(45deg, rgb(70, 0, 120) 0%, rgb(14, 207, 255) 100%);
+    flex-direction: row;
+}
+
 .gradient {
-    background: rgb(0, 30, 85);
-    background: linear-gradient(90deg, rgba(0, 30, 85, 1) 0%, rgb(14, 99, 255) 100%);
+    background: rgb(70, 0, 120);
+    background: linear-gradient(45deg, rgb(70, 0, 120) 0%, rgb(14, 207, 255) 100%);
 }

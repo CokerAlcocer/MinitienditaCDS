@@ -15,4 +15,12 @@ app.controller('productController', ['$scope', '$http', ($scope, $http) => {
             $scope.products = data
         })
     }
+
+    $scope.fireContact = () => {
+        $('#contactModal').modal('show')
+    }
+
+    $scope.fireTransfer = () => {
+        $('#transferModal').modal('show')
+    }
 }])
