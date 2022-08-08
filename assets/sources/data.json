@@ -56,7 +56,6 @@
         "status": true
     },{
         "name": "Sponch",
-        "desc": "(3 pzas.)",
         "imgUrl": "https://farmaciagloria.mx/7278-large_default/galleta-marinela-sponch-de-150-g.jpg",
         "price": 10,
         "status": true
@@ -87,7 +86,6 @@
         "status": true
     },{
         "name": "Dulci gomas",
-        "desc": "(20 pzas. c/u)",
         "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_916541-MLM49764376329_042022-O.jpg",
         "price": 13,
         "status": true
