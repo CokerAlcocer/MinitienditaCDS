@@ -1,4 +1,6 @@
 const app = angular.module('MinitienditaCDS', [])
+const local = '../../assets/sources/data.json'
+const remote = 'https://cokeralcocer.github.io/MinitienditaPososa/assets/sources/data.json'
 
 app.controller('productController', ['$scope', '$http', ($scope, $http) => {
     $scope.products = []
@@ -6,7 +8,7 @@ app.controller('productController', ['$scope', '$http', ($scope, $http) => {
     $scope.getData = () => {
         $http({
             method: 'GET',
-            url: 'https://cokeralcocer.github.io/MinitienditaPososa/assets/sources/data.json'
+            url: remote
         }).then(res => {
             let {data} = res
             for(let i = 0; i < data.length; i++){
@@ -22,5 +24,9 @@ app.controller('productController', ['$scope', '$http', ($scope, $http) => {
 
     $scope.fireTransfer = () => {
         $('#transferModal').modal('show')
+    }
+
+    $scope.fireCode = () => {
+        $('#codeModal').modal('show')
     }
 }])

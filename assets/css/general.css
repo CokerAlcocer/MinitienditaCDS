@@ -14,3 +14,12 @@ body {
     background: rgb(70, 0, 120);
     background: linear-gradient(45deg, rgb(70, 0, 120) 0%, rgb(14, 207, 255) 100%);
 }
+
+.coffee-font {
+    font-family: 'MaybeCoffe';
+}
+
+@font-face {
+    font-family: 'MaybeCoffe';
+    src: url(../fonts//MaybeCoffee.otf) format('opentype');
+}
