@@ -19,6 +19,14 @@ body {
     font-family: 'MaybeCoffe';
 }
 
+.text-opacity {
+    color: rgba(255, 255, 255, 70%);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
 @font-face {
     font-family: 'MaybeCoffe';
     src: url(../fonts//MaybeCoffee.otf) format('opentype');
