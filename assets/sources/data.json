@@ -28,7 +28,7 @@
         "name": "Rancheritos",
         "imgUrl": "https://modeloramanow.vtexassets.com/arquivos/ids/156887/ranchbolzasa_105gr.png?v=637897884403670000",
         "price": 13,
-        "status": true
+        "status": false
     },{
         "name": "Fritos clásicos",
         "imgUrl": "https://antojitos-mx.com/WebRoot/Store9/Shops/8d3f15d7-99c2-46bb-9867-a38fec5a288d/60CA/592C/966A/69E4/7F3D/0A48/35D5/DBE0/fritos-con-limon-sal-57gr.jpeg",
@@ -38,12 +38,12 @@
         "name": "Mini papitas",
         "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_844171-MLM47417803349_092021-O.webp",
         "price": 8,
-        "status": true
+        "status": false
     },{
         "name": "Triki trakes",
         "imgUrl": "https://cdn.shopify.com/s/files/1/0566/4391/1854/products/0000075002268_240821_2b7d2697-f113-4d32-a758-e72f0368e5f1.jpg?v=1647721268",
         "price": 12,
-        "status": true
+        "status": false
     },{
         "name": "Principe",
         "imgUrl": "https://s.cornershopapp.com/product-images/331164.jpg",
@@ -63,12 +63,12 @@
         "name": "Barritas (fresa)",
         "imgUrl": "https://cdn.shopify.com/s/files/1/0297/6812/2412/products/BARRITAS_FRESA_MARINELA_600x.png?v=1632771046",
         "price": 12,
-        "status": true
+        "status": false
     },{
         "name": "Barritas (piña)",
         "imgUrl": "https://d1zc67o3u1epb0.cloudfront.net/media/catalog/product/cache/23527bda4807566b561286b47d9060f4/6/8/6849.jpg",
         "price": 12,
-        "status": true
+        "status": false
     },{
         "name": "Barritas (moras)",
         "imgUrl": "https://superdtodo.com/assets/uploads/e7f20a33a14acf51a4731851e4d8c1dc.png",
@@ -78,12 +78,12 @@
         "name": "Mini cereales",
         "imgUrl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750100801963L.jpg",
         "price": 10,
-        "status": true
+        "status": false
     },{
         "name": "Rice krispies treats",
         "imgUrl": "https://m.media-amazon.com/images/I/61+cASZewML._SL1440_.jpg",
         "price": 7,
-        "status": true
+        "status": false
     },{
         "name": "Dulci gomas",
         "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_916541-MLM49764376329_042022-O.jpg",
@@ -100,24 +100,24 @@
         "desc": "barra de granola",
         "imgUrl": "https://www.costco.com.mx/medias/sys_master/products/h04/h35/80057825099806.webp",
         "price": 7,
-        "status": true
+        "status": false
     },{
         "name": "Red Cola",
         "desc": "3L",
         "imgUrl": "https://d1zc67o3u1epb0.cloudfront.net/media/catalog/product/cache/23527bda4807566b561286b47d9060f4/1/5/15577.jpg",
         "price": 30,
-        "status": true
+        "status": false
     },{
         "name": "Jarrito (piña)",
         "desc": "2L",
         "imgUrl": "https://cdn.shopify.com/s/files/1/0706/6309/products/Captura_de_pantalla_2019-04-05_a_la_s_11.23.37_2b4ef55d-98fd-422e-b089-f0bee8fe7ede_400x.png?v=1563807490",
         "price": 22,
-        "status": true
+        "status": false
     },{
         "name": "Jarrito (tutifruti)",
         "desc": "2L",
         "imgUrl": "https://cdn.shopify.com/s/files/1/0706/6309/products/mayoreototal-caja-refresco-jarritos-tuttifrutti-de-2-litros-con-8-piezas-jarritos-refrescos-jarritos-sku_400x.jpg?v=1563808790",
         "price": 22,
-        "status": true
+        "status": false
     }
 ]
